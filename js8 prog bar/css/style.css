@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: cursive;
+  background-color: steelblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  color: #dddd;
+  padding: 4rem;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+h1 {
+  font-weight: 200;
+  letter-spacing: 2px;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+
+.progress {
+  position: fixed;
+  height: 10px;
+  background-color: #222;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.progress-hg {
+  background-color: #4aaa;
+  transition: width 0.5s linear;
+  height: 100%;
+  width: 0;
+}
+@media screen and (max-width:768px) {
+    .container{
+        line-height:1;
+        font-size: 2rem;
+        color: #e44;
+
+
+    }
+}

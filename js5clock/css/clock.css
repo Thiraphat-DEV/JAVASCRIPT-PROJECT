@@ -1,0 +1,106 @@
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    background-color: hsl(300, 76%, 72%);
+    height: 100%;
+}
+.clock{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: hsla(0, 0%, 100%, .4);
+
+    width: 20em;
+    height: 20em;
+    border-radius: 50%;
+    border: .5em solid #111;
+    margin: .5em  auto;
+    padding: 1em;
+}
+
+.clock-fade{
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+    transform: translateY(-.75em);
+}
+
+.dot {
+    position: absolute;
+    top: calc(50% - .4em);
+    background-color: #111;
+    border-left: 0 solid transparent;
+    border-bottom: 0 solid transparent;
+    border-top: 0 solid transparent;
+    height: .4em;
+    width: 50%;
+    transform-origin: 100%;
+
+}
+
+.minute-dot {
+    background-color: transparent;
+    border-right:8em solid #40ade5 ;
+    transform: rotate(90deg);
+}
+
+.hour-dot {
+    top: calc(50% - .33em);
+    background-color:transparent ;
+    border-right: 7.25em solid #111;
+    height: .66em;
+    transform: rotate(180deg);
+}
+
+.sec-dot {
+    top: 50%;
+    background-color: #e55;
+    height: .1em;
+    transform: rotate(300deg);
+}
+
+.boss {
+    position: absolute;
+    top: calc(50% - .75em);
+    left: 50%;
+    border-radius: 50%;
+    height: 1.5em;
+    transform: translate(-50%);
+    width: 1.5em;
+    background-color: #111;
+   
+}
+
+.clock li{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #222;
+
+    font-size: 1em;
+    font-weight: 400;
+    list-style-type: none;
+    height: 4em;
+    padding:0;
+    text-align: center;
+    line-height: 2em;
+    width: 4em;
+
+}
+.clock li:nth-child(12){top: -1em; left: 7.5em;}
+.clock li:nth-child(1){top: .5em; left: 11.75em;}
+.clock li:nth-child(2){top: 3.5em; left: 14.75em;}
+.clock li:nth-child(3){top: 7.5em; left: 15.75em;}
+.clock li:nth-child(4){top: 11.75em; left: 14.75em;}
+.clock li:nth-child(5){top: 14.5em; left: 11.75em;}
+.clock li:nth-child(6){top: 15.5em; left: 7.5em;}
+.clock li:nth-child(7){top: 14.5em; left: 3.25em;}
+.clock li:nth-child(8){top: 11.5em; left: .25em;}
+.clock li:nth-child(9){top: 7.5em; left: -.75em;}
+.clock li:nth-child(10){top: 3.5em; left: .25em;}
+.clock li:nth-child(11){top: .5em; left: 3.25em;}
