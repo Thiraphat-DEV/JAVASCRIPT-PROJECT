@@ -1,3 +1,4 @@
-# 10-javaScript-
+# -javaScriptProject-
 
+EVERYDAY PROJECT
 learn javascript from JUST DO IT!!!!
