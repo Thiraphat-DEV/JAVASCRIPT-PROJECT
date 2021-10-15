@@ -3,9 +3,14 @@
     box-sizing: border-box;
 }
 
-html{
-    background-color: hsl(300, 76%, 72%);
-    height: 100%;
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    
 }
 .clock{
     position: absolute;
@@ -92,7 +97,7 @@ html{
     width: 4em;
 
 }
-.clock li:nth-child(12){top: -1em; left: 7.5em;}
+.clock li:nth-child(12){top: 0; left: 7.5em;}
 .clock li:nth-child(1){top: .5em; left: 11.75em;}
 .clock li:nth-child(2){top: 3.5em; left: 14.75em;}
 .clock li:nth-child(3){top: 7.5em; left: 15.75em;}
@@ -103,4 +108,4 @@ html{
 .clock li:nth-child(8){top: 11.5em; left: .25em;}
 .clock li:nth-child(9){top: 7.5em; left: -.75em;}
 .clock li:nth-child(10){top: 3.5em; left: .25em;}
-.clock li:nth-child(11){top: .5em; left: 3.25em;}
+.clock li:nth-child(11){top: .6em; left: 3.25em;}
