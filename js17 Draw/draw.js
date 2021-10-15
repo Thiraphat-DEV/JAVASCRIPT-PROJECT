@@ -1,5 +1,4 @@
 //draw coding pad
-(() => {
   //get id
   const canvas = document.getElementById("canvas");
   const increaseBtn = document.getElementById("increase");
@@ -102,7 +101,7 @@
   }
 
 
- function run() {
+ function runEvent() {
             //addEvent Mouse
   canvas.addEventListener("mouseup", mouseUp);
   canvas.addEventListener("mousemove", mouseMove);
@@ -117,6 +116,6 @@
           //add clear screen empty
   clearELem.addEventListener('click', clearScreen);
  }
- run();
+ runEvent();
 
-})();
+
