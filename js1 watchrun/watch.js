@@ -1,4 +1,4 @@
-
+// apply to loadweb
 window.onload = (()=>{
   
     //get class and id
@@ -16,16 +16,16 @@ window.onload = (()=>{
         mi++;
         //minute
         if (mi < 9)  {
-            appendMi.innerHTML = '0' + mi;
+            appendMi.innerHTML = `0:${mi}`;
         }
         if (mi > 9) {
             appendMi.innerHTML = mi;
         }
         if (mi > 100) {
             sec++;
-            appendsec.innerHTML = '0' + sec;
+            appendsec.innerHTML = `0:${sec}`;
             mi = 0;
-            appendMi.innerHTML = '0' + 0;
+            appendMi.innerHTML = `0:${mi}`;
         }
         //second
         if(sec > 9) {
@@ -35,7 +35,7 @@ window.onload = (()=>{
     }
 
 
-        //add evnt click
+        //add event click
     btnRun.onclick = (()=>{
         clearInterval(Interval);
         Interval = setInterval(RunTimes, 10);
