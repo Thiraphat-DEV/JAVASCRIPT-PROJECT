@@ -108,11 +108,13 @@ body {
 .content h2,
 .content h3 {
   font-size: 150%;
-  margin: 30px 0;
+  text-align: center;
+  margin: 30px ;
 }
 
 .content p {
+  margin: 1rem;
   color: #444;
   line-height: 30px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
