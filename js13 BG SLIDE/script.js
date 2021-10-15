@@ -1,5 +1,5 @@
 
-(()=>{
+
     //get Element class  and id button
     const body  = document.body;
     const slides = document.querySelectorAll('.slide');
@@ -45,4 +45,3 @@
     //add Event click
     rightBtn.addEventListener('click', onRight);
     leftBtn.addEventListener('click', onLeft);
-})();
