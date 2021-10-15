@@ -3,7 +3,12 @@
 }
 
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   font-family: cursive;
+  overflow: hidden;
   margin: 0;
   height: 100vh;
 
