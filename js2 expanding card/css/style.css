@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 
-body{
+body{/*set default */
     font-family: cursive;
     display: flex;
     align-items: center;
@@ -21,14 +21,12 @@ body{
 }
 
 .panel{
-    background-size: auto 100%;
-    background-position: center;
-    background-repeat: no-repeat;
+    background:no-repeat center 100%;
     height: 80vh;
     border-radius: 50px;
     color: #ffff;
     cursor: pointer;
-
+    
     position: relative;
     flex: .5;
     margin: 10px;
@@ -41,7 +39,7 @@ body{
 
     bottom: 20px;
     left: 20px;
-    margin: 0;
+    inset:0; /*all margin*/
 
     opacity: 0;
 }
@@ -52,12 +50,12 @@ body{
 
 .panel.active h4{
     opacity: 1;
-    transition: opacity .3s ease-in .4s ;
+    transition: opacity .3s ease-in .5s ;
 }
 
 /* media panel */
 
-@media screen and (max-width:480px){
+@media (max-width:480px){
     .container{
         width: 100vw;
     }
