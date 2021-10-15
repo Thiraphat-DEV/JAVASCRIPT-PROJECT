@@ -1,4 +1,6 @@
 # -javaScriptProject-
 
 EVERYDAY PROJECT
-learn javascript from JUST DO IT!!!!
+Practice until you master it.
+
+## NEVER STOP LEARN
