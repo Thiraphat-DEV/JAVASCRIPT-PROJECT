@@ -1,5 +1,5 @@
 
-(()=>{
+
     window.addEventListener('keydown', ((e)=>{
         const music = document.querySelector(`audio[data-key="${e.keyCode}"]`);
         const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
@@ -26,4 +26,3 @@
         key.addEventListener('transitionend', clearTransition);
     })
 
-})();
