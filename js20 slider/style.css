@@ -1,0 +1,92 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+
+body{
+    font-family:cursive;
+    height: 100vh;
+}
+
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left-slide{
+    width: 35%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform .5s ease-in-out;
+}
+.left-slide > div {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.left-slide h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: -30px;
+}
+ 
+.right-slide{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 35%;
+    width: 65%;
+}
+
+.right-slide > div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+    border-radius: 5em;
+    font-size: 20px;
+    padding:15px;
+    
+
+}
+button:focus {
+    outline: 0;
+}
+
+button:hover {
+    transition: all .5s ease-in;
+    color: #e55e;
+}
+.slider-container .action-btn button {
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    z-index: 999;
+}
+.slider-container .action-btn .down-btn {
+    transform: translateX(-100%);
+    
+}
+.slider-container .action-btn .up-btn {
+    transform: translateY(-100%);
+}
