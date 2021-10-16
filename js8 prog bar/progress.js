@@ -1,3 +1,4 @@
+window.onload = ()=> {
 
     //get id
         const container = document.getElementById("js-container");
@@ -14,5 +15,6 @@
           let progressPercent = dif / conH * 100;
           let width = Math.floor(100 - progressPercent);
 
-          progressHg.style.width = width + '%';
+          progressHg.style.width = `${width}%`;
         })
+}
