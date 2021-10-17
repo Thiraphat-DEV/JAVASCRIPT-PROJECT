@@ -1,0 +1,63 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e5e5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.button {
+    background-color: #fff;
+    color: #e55e;
+    border: none;
+    border-radius: 3em;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.button:focus,
+.button:hover {
+    outline: 0;
+    color: #40ade5;
+    transition: all .3s linear;
+}
+
+.button:active {
+    transform: scale(1);
+}
+#toast {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.toast {
+    background-color: #fff;
+    
+    border-radius: 3em;
+    padding: 1rem 2rem;
+    margin: .5rem;
+
+}
+
+.toast.danger{
+color: #e55;
+}
+
+.toast.info {
+    color: #40ade5;
+}
+.toast.warning {
+    color:yellow;
+}

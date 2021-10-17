@@ -1,0 +1,12 @@
+{
+  "name": "js21-showmessage",
+  "version": "1.0.0",
+  "description": "show The message Boxes",
+  "main": "show.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Thiraphat",
+  "license": "ISC"
+}
