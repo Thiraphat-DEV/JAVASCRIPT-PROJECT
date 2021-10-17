@@ -1,4 +1,4 @@
-# -javaScriptProject-
+# -javaScriptProject SUMMER-
 
 EVERYDAY PROJECT
 Practice until you master it.
