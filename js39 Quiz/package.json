@@ -1,0 +1,12 @@
+{
+  "name": "js39-quiz",
+  "version": "1.0.0",
+  "description": "```\r git clone \r ```",
+  "main": "quiz.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Thiraphat",
+  "license": "ISC"
+}
