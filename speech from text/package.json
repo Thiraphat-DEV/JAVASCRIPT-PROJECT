@@ -1,0 +1,12 @@
+{
+  "name": "speech-from-text",
+  "version": "1.0.0",
+  "description": "````\r \tgit clone 'https://www.github.com/Thiraphat-DEV/JAVASCRIPT-PROJECT/speechfromtext'\r ````",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Thiraphat",
+  "license": "ISC"
+}
