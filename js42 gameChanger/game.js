@@ -16,7 +16,7 @@ let selected_vacine = {} //empty object with get Vacine
 //เมิ่อกดเริ่มเกมให้เรียกใช้หน้าต่างการเลือก Vacine
 start_btn.addEventListener('click', () => screens[0].classList.add('up'))
 
-//เมื่อมีการเลือกสัตว์เเล้วให้มีการดึงรูปภาพของ Vacine
+//เมื่อมีการเลือกวัคซีนเเล้วให้มีการดึงรูปภาพของ Vacine
 choose_vacine_btns.forEach(btn => {
     btn.addEventListener('click', () => {
         const img = btn.querySelector('img')
@@ -48,7 +48,7 @@ function increaseTime() {
     
 }
 
-//สร้างสัตว์
+//สร้างวัคซีน
 function createVacine() {
     const vacines = document.createElement('div')
     vacines.classList.add('vacine')
